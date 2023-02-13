@@ -43,7 +43,7 @@ for person in new_salary_dict:
     full_name = person
     final_salary = float(new_salary_dict[person])
     print('Manager Name: ', full_name, ' New Salary: $', format(final_salary, ',.2f'))
-
+infile.close()
 
 
    
